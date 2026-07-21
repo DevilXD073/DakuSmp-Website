@@ -1,0 +1,1 @@
+export default function Home(){return (<main style={{fontFamily:'sans-serif',padding:40,background:'#111',color:'#fff',minHeight:'100vh'}}><h1>DakuSMP</h1><p>Welcome to DakuSMP PvP.</p></main>)}
