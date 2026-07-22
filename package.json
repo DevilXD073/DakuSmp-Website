@@ -1,1 +1,22 @@
-{"name":"dakusmp","private":true,"scripts":{"dev":"next dev","build":"next build"},"dependencies":{"next":"latest","react":"latest","react-dom":"latest"}}
+{
+  "name": "dakusmp-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}
